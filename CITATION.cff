@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated manuscript."
+title: "Qualitative image analysis of Salmonella-HCT116 widefield fluorescence images"
+abstract: >-
+  Analysis and figure-generation code for the widefield fluorescence microscopy
+  figure in the associated manuscript.
+authors:
+  - family-names: Grijaldo-Alvarez
+    given-names: Sheryl Joyce B.
+    affiliation: "Department of Chemistry, University of California, Davis"
+    email: sbgrijaldo@ucdavis.edu
+  - family-names: Sheng
+    given-names: Ying
+    affiliation: "Department of Chemistry, University of California, Davis"
+  - family-names: Xie
+    given-names: Yixuan
+    affiliation: "Department of Chemistry, University of California, Davis"
+  - family-names: Wong
+    given-names: Maurice Y.
+    affiliation: "Department of Chemistry, University of California, Davis"
+  - family-names: Lebrilla
+    given-names: Carlito B.
+    affiliation: "Department of Chemistry, University of California, Davis"
+license: MIT
+version: 1.0.0
+date-released: 2026-10-18

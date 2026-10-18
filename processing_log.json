@@ -1,0 +1,412 @@
+{
+ "run": "2026-10-13T15:10:17",
+ "display": {
+  "dapi": [
+   20,
+   255
+  ],
+  "phalloidin": [
+   15,
+   110
+  ],
+  "dapi_inset": [
+   25,
+   90
+  ]
+ },
+ "um_per_px": 0.16125,
+ "crop_rows": 960,
+ "membrane_band_um": 3.0,
+ "inputs": {
+  "20251222/glu_b_0005.tif": "15ceb4f2e94762b2d9945bc4d5e2ee2fd4c798d7688253af30f4ab13dc6ea514",
+  "20251222/glu_r_0005.tif": "5c2b88999d30491ecfb43029a9dfed02057038e3b84133c784a7d098bc7853bf",
+  "20251222/fucose_b_0003.tif": "18de5732fc5dfd0c6fce86c8c53f1c4f33b9103f88bd1e48e9e2f6fb7123ba31",
+  "20251222/fucose_composite_0003.tif": "c48a648e1971685c548d06ac28e54b183573115a2c54eefe5632fcd914ce4668",
+  "20251222/glu_b_0001.tif": "5a7fe7e8d81251c7b8ad927def6d90b2c9427cb6365fae3ccf53a0b56119e7b9",
+  "20251222/glu_b_0002.tif": "212a0d519a56929e94023fd5ce4ef10eef6946a9a6ea2c76ad5fc9e0ed61ac4c",
+  "20251222/glu_b_0003.tif": "da90c513eac1f2aff9d904f62f07cd5c020dac5afb4efdc846e7928368120524",
+  "20251222/glu_b_0004.tif": "4bca9e6b523a755fadf1537ee858349d3259e386e7d3e4f9092dfcf335496133",
+  "20251222/glu_b_0006.tif": "652383b367749515ec4546c60cfc2efe715e4a75e89c8d231e34791aba0afe57",
+  "20251222/glu_b_0007.tif": "0fb17fd0e5c0ddb6ba118bd75286b3dc6d9d3267f2a4cfdcca61c8c74f4fd2b5",
+  "20251222/glu_b_0008.tif": "797e84d2e7bc2bb553bf20e881e33a1e742aedc19f220652966ea84acae5b079",
+  "20251222/glu_b_0009.tif": "a76707e367ee186717f9efacdef0302c042ecff416f674c2042173e7a2503b95",
+  "20251222/glu_b_0010.tif": "4cdf15d44670cc25f6b852421f5e70fde4cb9fe2093b88430a7236898abaaaac",
+  "20251222/fucose_b_0001.tif": "04b1139f3dcd046843b6de66702cf9a4e0259ced295a3a6cf95d1dfde3bec03f",
+  "20251222/fucose_b_0002.tif": "cf68e0c8a44e7e4681bfe69b4f1338007d5a50cdffe6ff32c1d84ccb8260bfe2",
+  "20251222/fucose_b_0004.tif": "3f825197b20f25bfcd171877cfa0bf8f5b3aa733905f9d694cc8ebbb929267a7",
+  "20251222/fucose_b_0005.tif": "cc5756764488bc680eda281027c37870f3e018a05d6e67104c555c99cf4b5f53",
+  "20251222/fucose_b_0006.tif": "79e594af01f9ddf1dcbc7e0067a14e6095890b2cfa6382d978ca90c3405b1b39",
+  "20251222/fucose_b_0007.tif": "0f84b002cf2b07d80248ee461d5760752ff5bcb06e8276d4a279908a4ecc2101",
+  "20251222/fucose_b_0008.tif": "40be98d4df712e30e2c3c3cb0f8fb31b7ac0dcb17512af55025ade861db47c2c",
+  "20251222/fucose_b_0009.tif": "1e976a78ea7cbb39037052d0a5cdaa87a85792a7c8f41a60f66706c1f8eba5e2",
+  "20251222/fucose_b_0010.tif": "1ed15368f1efc0c5d4806f61cc8c4488ce510c9a5faa552796257386ce142156"
+ },
+ "field_selection": {
+  "Glucose": {
+   "chosen": "0005",
+   "rule": "most Salmonella candidates within 3 um of a cell edge; tie-break lowest DAPI saturation",
+   "ranked": [
+    [
+     "0005",
+     17,
+     0,
+     1.88
+    ],
+    [
+     "0003",
+     13,
+     3,
+     0.98
+    ],
+    [
+     "0010",
+     13,
+     1,
+     1.18
+    ],
+    [
+     "0009",
+     12,
+     15,
+     1.36
+    ],
+    [
+     "0007",
+     11,
+     0,
+     0.49
+    ],
+    [
+     "0006",
+     8,
+     2,
+     1.58
+    ],
+    [
+     "0001",
+     6,
+     17,
+     1.26
+    ],
+    [
+     "0002",
+     5,
+     17,
+     0.7
+    ],
+    [
+     "0004",
+     4,
+     2,
+     1.23
+    ],
+    [
+     "0008",
+     4,
+     0,
+     1.3
+    ]
+   ]
+  },
+  "Fucose": {
+   "chosen": "0001",
+   "rule": "most Salmonella candidates within 3 um of a cell edge; tie-break lowest DAPI saturation",
+   "ranked": [
+    [
+     "0001",
+     8,
+     0,
+     0.0
+    ],
+    [
+     "0010",
+     7,
+     4,
+     1.24
+    ],
+    [
+     "0003",
+     4,
+     42,
+     0.65
+    ]
+   ]
+  }
+ },
+ "fields": {
+  "Glucose": "0005",
+  "Fucose": "0003"
+ },
+ "field_mode": {
+  "Glucose": "auto",
+  "Fucose": "0003"
+ },
+ "salmonella_at_membrane": {
+  "Glucose": {
+   "field": "0005",
+   "n_in_zoomed_cell": 3,
+   "n_in_field": 17,
+   "objects": [
+    {
+     "x": 855.8,
+     "y": 130.8,
+     "snr": 6.1,
+     "core": 4.4,
+     "convexity": 0.9
+    },
+    {
+     "x": 1205.4,
+     "y": 151.6,
+     "snr": 10.8,
+     "core": 8.3,
+     "convexity": 0.82
+    },
+    {
+     "x": 649.3,
+     "y": 297.5,
+     "snr": 10.8,
+     "core": 9.4,
+     "convexity": 0.84
+    },
+    {
+     "x": 385.3,
+     "y": 416.6,
+     "snr": 6.7,
+     "core": 6.4,
+     "convexity": 0.82
+    },
+    {
+     "x": 447.8,
+     "y": 531.8,
+     "snr": 5.4,
+     "core": 2.5,
+     "convexity": 0.89
+    },
+    {
+     "x": 1018.1,
+     "y": 545.4,
+     "snr": 8.1,
+     "core": 8.1,
+     "convexity": 0.9
+    },
+    {
+     "x": 977.3,
+     "y": 554.4,
+     "snr": 9.4,
+     "core": 7.0,
+     "convexity": 0.86
+    },
+    {
+     "x": 1161.8,
+     "y": 582.0,
+     "snr": 12.8,
+     "core": 12.3,
+     "convexity": 0.89
+    },
+    {
+     "x": 141.2,
+     "y": 593.7,
+     "snr": 9.4,
+     "core": 8.1,
+     "convexity": 0.84
+    },
+    {
+     "x": 150.0,
+     "y": 591.7,
+     "snr": 9.4,
+     "core": 7.5,
+     "convexity": 0.86
+    },
+    {
+     "x": 1363.3,
+     "y": 622.4,
+     "snr": 11.5,
+     "core": 9.5,
+     "convexity": 0.88
+    },
+    {
+     "x": 1221.1,
+     "y": 638.2,
+     "snr": 6.7,
+     "core": 3.9,
+     "convexity": 0.9
+    },
+    {
+     "x": 275.9,
+     "y": 730.5,
+     "snr": 6.1,
+     "core": 5.2,
+     "convexity": 0.84
+    },
+    {
+     "x": 283.6,
+     "y": 732.8,
+     "snr": 5.4,
+     "core": 4.5,
+     "convexity": 0.93
+    },
+    {
+     "x": 63.1,
+     "y": 846.3,
+     "snr": 10.1,
+     "core": 7.4,
+     "convexity": 0.81
+    },
+    {
+     "x": 545.5,
+     "y": 870.0,
+     "snr": 6.1,
+     "core": 5.0,
+     "convexity": 0.8
+    },
+    {
+     "x": 945.1,
+     "y": 901.6,
+     "snr": 8.1,
+     "core": 5.2,
+     "convexity": 1.0
+    }
+   ],
+   "n_confirmed_reference": 12
+  },
+  "Fucose": {
+   "field": "0003",
+   "n_in_zoomed_cell": 3,
+   "n_in_field": 4,
+   "objects": [
+    {
+     "x": 329.6,
+     "y": 188.6,
+     "snr": 10.1,
+     "core": 6.6,
+     "convexity": 0.9
+    },
+    {
+     "x": 463.7,
+     "y": 330.5,
+     "snr": 7.4,
+     "core": 5.1,
+     "convexity": 1.0
+    },
+    {
+     "x": 463.3,
+     "y": 338.6,
+     "snr": 5.4,
+     "core": 2.5,
+     "convexity": 1.0
+    },
+    {
+     "x": 487.8,
+     "y": 461.9,
+     "snr": 18.2,
+     "core": 15.8,
+     "convexity": 0.86
+    }
+   ],
+   "n_confirmed_reference": 12
+  }
+ },
+ "inset_Glucose": {
+  "x": 49,
+  "y": 522,
+  "w": 201,
+  "h": 138,
+  "target": "membrane",
+  "bacteria_marked": 2
+ },
+ "annotations_Glucose": {
+  "cells": [
+   [
+    705.6,
+    61.2,
+    110.7
+   ]
+  ],
+  "bacteria_in_inset": [
+   [
+    71.7,
+    92.2
+   ],
+   [
+    69.7,
+    101.0
+   ]
+  ]
+ },
+ "inset_Fucose": {
+  "x": 363,
+  "y": 261,
+  "w": 201,
+  "h": 138,
+  "target": "membrane",
+  "bacteria_marked": 2
+ },
+ "annotations_Fucose": {
+  "cells": [
+   [
+    410.6,
+    429.4,
+    66.3
+   ]
+  ],
+  "bacteria_in_inset": [
+   [
+    69.5,
+    100.7
+   ],
+   [
+    77.6,
+    100.3
+   ]
+  ]
+ },
+ "af488_check": {
+  "20251222/glu_g_0005.tif": "absent",
+  "20251222/fucose_g_0003.tif": "absent"
+ },
+ "membrane_Glucose": {
+  "window": [
+   218,
+   761,
+   148,
+   102
+  ],
+  "field": "0005",
+  "bacteria_channel": "DAPI",
+  "band_um": 3.0,
+  "rods_field": 2,
+  "rods_at_membrane_field": 2,
+  "rods_at_membrane_window": 0,
+  "n_cells": 11,
+  "band_um2": 5337,
+  "band_evaluable_frac": 0.0,
+  "band_evaluable_um2": 0,
+  "median_DAPI_at_band": 130,
+  "rods_in_field": 0,
+  "rods_within_band": 0,
+  "dapi_saturated_pct": 1.88
+ },
+ "membrane_Fucose": {
+  "window": [
+   357,
+   436,
+   148,
+   102
+  ],
+  "field": "0003",
+  "bacteria_channel": "DAPI",
+  "band_um": 3.0,
+  "rods_field": 3,
+  "rods_at_membrane_field": 3,
+  "rods_at_membrane_window": 1,
+  "n_cells": 4,
+  "band_um2": 1221,
+  "band_evaluable_frac": 0.0,
+  "band_evaluable_um2": 0,
+  "median_DAPI_at_band": 165,
+  "rods_in_field": 42,
+  "rods_within_band": 0,
+  "dapi_saturated_pct": 0.65
+ },
+ "sources_unchanged": true
+}

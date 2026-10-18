@@ -1,0 +1,7 @@
+Figure 6. Fluorescence microscopy of HCT116 cells exposed to Salmonella pre-incubated with glucose or fucose. (a-d) Glucose; (e-h) fucose. DAPI labels DNA (blue), and Alexa Fluor 594-phalloidin labels F-actin (red). White arrows indicate host cells (HCT116); yellow boxes indicate enlarged regions (d, h). Enlargements show background-corrected DAPI (white top-hat, 2.4 um); red dashed lines indicate cell edges, and yellow arrowheads identify candidate Salmonella bacterial objects within 3 um. Candidate identification is based on DAPI signal and morphology. Images provide qualitative illustration alongside the CFU measurements (Figure 3). Scale bars: 50 um (a-c, e-g); 5 um (d, h).
+
+Supplementary Figure S6. Candidate bacterial objects in the glucose field. DAPI crops show 17 near-edge candidates (yellow labels) and six background reference objects (green labels), enabling direct comparison of morphology. All 4.2 um crops use identical display settings; labels indicate coordinates and local signal-to-noise ratios.
+
+Supplementary Figure S7. Candidate bacterial objects in the fucose field. DAPI individual object images show four near-edge candidates and four background reference objects, displayed as in Supplementary Figure S6. The individual object images document variation in object morphology, including annular profiles among near-edge candidates. Identification remains provisional.
+
+[Acquisition and display disclosure moved to Methods - see Figure_captions_and_text_v7_FINAL.docx]
